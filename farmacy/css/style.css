@@ -1,0 +1,275 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+
+}
+
+.parallax{
+  bottom: 60%;
+}
+.nav-wrapper {
+  background-color: #F6F3F0;
+}
+.brand-logo{
+  margin-right: 100px;
+
+}
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #AD6047;
+}
+
+.parallax-container {
+  min-height: 580px;
+  line-height: 0;
+  height: auto;
+  color: white;
+  background :linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  background-color: #AD6047;
+  margin: 0;
+}
+
+.logo-nav2{
+  width: 70px;
+  height: 70px;
+  position:absolute;
+  left: -70px;
+  top: 0;
+  bottom: 0;
+  
+}
+
+.container{
+  text-align: left;
+}
+
+.button {
+  height: 40px;
+  width: 100px;
+  background-color:#AD6047;
+  color: white;
+  border-radius: 10px;
+}
+
+.gb1 {
+  height: 150px;
+
+}
+
+.gb1 li {
+  height: 50%;
+  padding-top: 10px;
+  margin-top: 20px;
+  width: 10%;
+}
+
+form {
+  
+		font-family: Arial, Helvetica, sans-serif;
+		margin-left:25%;
+		margin-right:25%;
+		border: 1px solid #000000;
+		margin-bottom: 5px;
+		padding: 0px 15px 0 15px;
+		
+}
+
+.hub {
+  position: absolute;
+width: 600px;
+height: 108px;
+left: 111px;
+top: 40px;
+font-family: 'Baloo Da 2';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 108px;
+color: #F7F3F0;
+} 
+
+.hib {
+  position: absolute;
+width: 549px;
+height: 25px;
+left: 111px;
+top: 180px;
+font-family: 'Baloo Thambi 2';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 25px;
+color: #F7F3F0;
+}
+
+.hiib {
+  position: absolute;
+width: 46px;
+height: 25px;
+left: 111px;
+top: 250px;
+font-family: 'Baloo Thambi 2';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 25px;
+color: #F7F3F0;
+}
+
+.hiib1 {
+  position: absolute;
+  width: 521px;
+  height: 26px;
+  left: 111px;
+  top: 270px;
+  background: #FFFFFF;
+  border: 1px solid #A85E46;
+  border-radius: 4px;
+}
+
+.hiib2 {
+position: absolute;
+width: 521px;
+height: 26px;
+left: 111px;
+top: 350px;
+
+background: #FFFFFF;
+border: 1px solid #A85E46;
+border-radius: 4px;
+}
+
+.hiib3 {
+position: absolute;
+width: 521px;
+height: 26px;
+left: 111px;
+top: 430px;
+background: #FFFFFF;
+border: 1px solid #A85E46;
+border-radius: 4px;
+}
+
+.hiibe {
+  position: absolute;
+width: 44px;
+height: 25px;
+left: 111px;
+top: 330px;
+
+font-family: 'Baloo Thambi 2';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 25px;
+/* identical to box height */
+
+
+color: #F7F3F0;
+}
+
+.hiibt {
+  position: absolute;
+width: 112px;
+height: 25px;
+left: 111px;
+top: 410px;
+
+font-family: 'Baloo Thambi 2';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 25px;
+/* identical to box height */
+
+
+color: #F7F3F0;
+}
+
+
+hr 
+		{
+		border: 1px solid #e6e6e6;
+		margin-bottom: 5px;
+		}
+
+.hiibs {
+  position: absolute;
+width: 200px;
+height: 25px;
+left: 111px;
+top: 490px;
+
+font-family: 'Baloo Thambi 2';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 25px;
+/* identical to box height */
+
+
+color: #F7F3F0;
+}
+
+.hiib4 {
+  position: absolute;
+  width: 10px;
+  height: 26px;
+  left: 111px;
+  top: 510px;
+  background: #FFFFFF;
+  border: 1px solid #A85E46;
+  border-radius: 4px;
+  }
+
+  .sub {
+    position: absolute;
+width: 131px;
+height: 26px;
+left: 501px;
+top: 500px;
+
+background: #F7F3F0;
+border: 1px solid #A85E46;
+border-radius: 4px;
+  }

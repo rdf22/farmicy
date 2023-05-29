@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registrasi</title>
+<style>
+	body 
+		{
+		font-family: Arial, Helvetica, sans-serif;
+		margin-left:25%;
+		margin-right:25%;
+		border: 1px solid #000000;
+		margin-bottom: 5px;
+		padding: 0px 15px 0 15px;
+		}
+	input[type=text], input[type=password],  [type=email], [type=tel]
+		{
+		width: 97%;
+		padding: 10px;
+		margin: 5px 0 22px 0;
+		display: inline-block;
+		border: none;
+		background: #F5F5F5;
+		}
+	input[type=checkbox]
+	{
+		padding: 20px;
+		margin: 0 0 0 0;
+		display: inline-block;
+		border: none;
+		background: #F5F5F5;
+	}
+		
+	hr 
+		{
+		border: 1px solid #e6e6e6;
+		margin-bottom: 5px;
+		}
+	.registerbutton
+		{
+		background-color: #29a329;
+		color: white;
+		padding: 15px 20px;
+		margin: 10px 0px;
+		border: none;
+		cursor: pointer;
+		width: 100%;
+		text-align:bold;
+		}
+	
+	.hewan1 {
+		width: 18.5%;
+		margin: 0 0 0 0;
+		display: inline-block;
+		border: none;
+		background: #F5F5F5;
+	}
+	.hewan2 {
+		width: 10%;
+	}
+
+	.hewan3 {
+		width: 13.5%;
+	}
+	
+
+</style>
+</head>
+<body>
+	<form action="action.php" id="dataDiri">
+		<h1>Register</h1>
+		<p>Silahkan isi untuk membuat akun.</p>
+		<hr>
+		
+		<label for="name"><b>Nama</b></label>
+		<input type="text" placeholder="Masukan nama anda" name="name" required id="nama"><br>
+		
+		<label for="number"><b>Nomer Hp</b></label>
+		<input type="tel" placeholder="masukan nomer hp anda" name="number" required id="kontak" pattern="[0-9]{4}[0-9]{4}[0-9]{4}"><br>
+		
+		<label for="email"><b>Email</b></label> 
+		<input type="email" placeholder="masukan email anda" name="email" required id="email"><br>
+
+		<label for="kota"><b>Kota</b></label> 
+		<input type="text" placeholder="Masukan kota tempat anda tinggal" name="kota" required id="kota"><br>
+		<div required>
+		<label for="hewan" ><b>Pilih Hewan Ternakmu</b></label> 
+		<div>
+		<label for="sp">Sapi</label>
+		<input type="checkbox" name="hewan"  class="hewan1" ><br></div>
+		<div>
+		<label for="kb">kambing</label>
+		<input type="checkbox" name="hewan"  class="hewan2" ><br></div>
+		<div>
+		<label for="db">domba</label>
+		<input type="checkbox" name="hewan"  class="hewan3" ><br></div>
+	</div>
+
+		<label for="pwd"><b>Password</b></label>
+		<input type="password" placeholder="masukan password" name="psw" required><br>
+
+		<label for="psw-repeat"><b>konfirmasi Password</b></label>
+		<input type="password" placeholder="masukan Password" name="psw-repeat" required><br>
+		<hr>
+		<p>Dengan membuat akun anda setuju dengan peraturan kami. <a href="#">Terms & Privacy</a>.</p>
+
+		<button type="submit" onclick="regis()" class="registerbutton">Registrasi</button>
+		
+  
+		
+		<p>Sudah memiliki akun? <a href="login.html">Login</a>.</p>
+		
+	</form>
+	<script src= "./js/regis.js" type="text/javascript"></script> 
+
+</body>
+</html>
